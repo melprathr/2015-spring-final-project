@@ -17,6 +17,46 @@ header[role="banner"] {
     }
 }
 
+header[role="resume-banner"] {
+    background: url('../img/resume-banner.png') center no-repeat;
+    background-size: cover;
+    height: .5vh;
+    text-align: center;
+    width: 100vw;
+    padding-top: 100px;
+    max-width: 100%;
+    @media screen and (min-width: 1024px) {
+        text-align: center;
+        background-size: cover;
+        height: 5vh;
+        text-align: center;
+        width: 100vw;
+        padding-top: 120px;
+        max-width: 100%;
+        //max-width: 100%;
+    }
+}
+
+header[role="candlestick-banner"] {
+    background: url('../img/candlestick-banner.png') center no-repeat;
+    background-size: cover;
+    height: .5vh;
+    text-align: center;
+    width: 100vw;
+    padding-top: 100px;
+    max-width: 100%;
+    //margin-bottom: 1em;
+    @media screen and (min-width: 1024px) {
+        text-align: center;
+        background-size: cover;
+        height: 5vh;
+        text-align: center;
+        width: 100vw;
+        padding-top: 120px;
+        max-width: 100%;
+        //max-width: 100%;
+    }
+}
 
 
 //.banner {
@@ -33,13 +73,18 @@ nav[role="navigation"] {
     background-size: cover;
     position: static;
     text-align: center;
+    margin-top: 1em;
     //width: 100vw;
+    //float: left;
+    //height: 100vh;
+    //left: 270px;
+    //width: 140vw;
     //right: 10px;
     //top: 10px;
 }
 
 .main-work {
-    padding-top: 10px;
+    padding-top: 20px;
         //@media screen {
         //.row .col-3 {
            // width: calc(25% - #{$gutter});   
