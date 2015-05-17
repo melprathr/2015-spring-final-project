@@ -1,1 +1,26 @@
 /* Globals.scss */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+
+@mixin body-font {
+    font-family: 'Lato', 'helvetica', 'verdana', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+//@mixin body-font-italic {
+    //font-family: "adobe-garamond-pro", "georgia", serif;
+    //font-style: italic;
+    //font-weight: 400;
+//}
+
+//@mixin body-font-bold {
+    //font-family: "adobe-garamond-pro", "georgia", serif;
+    //font-style: normal;
+    //font-weight: 700;
+//}
+
+@mixin headline-font {
+    font-family: 'Lato', 'helvetica', 'verdana', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}

@@ -74,6 +74,7 @@ nav[role="navigation"] {
     position: static;
     text-align: center;
     margin-top: 1em;
+    @include body-font;
     //width: 100vw;
     //float: left;
     //height: 100vh;

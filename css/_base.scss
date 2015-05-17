@@ -4,6 +4,18 @@ img {
     max-width: 100%;   
 }
 
+body {
+    @include body-font;
+}
+
+h1, h2, h3, h4 {
+    @include headline-font;   
+}
+
+a {
+    @includ body-font;   
+}
+
 .main-work img {
     filter:brightness(1);
     transition: all 300ms ease-in-out;
@@ -47,6 +59,10 @@ img {
     transition: all 300ms linear;
 }
 
+.candlestick-study img {
+    margin-bottom: 1em;   
+}
+
 .collapse-wrap {
     text-align: center;
     //text-decoration-color: #fff;
@@ -83,6 +99,7 @@ h1:first-of-type {
 .resume-info, {
     text-align: center;
     margin: 0 0 0 0;
+    color: #fff;
 }
 
 .resume-info ul, {
