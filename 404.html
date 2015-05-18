@@ -70,13 +70,34 @@
             text-align: center;
             width: 100vw;
             padding-top: 2px;
-            margin-bottom: 0;   
+            margin-bottom: 0;
+            max-width: 100%;
         }
+        
+        $desktop: 1140px;
+        $tablet: 768px;
+        $mobile: 550px;
+        $gutter: 14px;
+        $padding: 6px;
+        
+        @media screen and (min-width: $tablet) {
+            .row [class^="col-"] {
+            margin-left: $gutter/2;
+            margin-right: $gutter/2;
+        }
+        .row .col-12 {
+        width: calc(100% - #{$gutter});   
+    }
+}    
 
     </style>
 </head>
 <body>
-    <img src="img/404-img.png" alt="Sorry"/>
+    <div class="row">
+        <div class="col-12">
+            <img src="img/404-img.png" alt="Sorry"/>
+        </div>
+    </div>
     <p>the page you were trying to view does not exist.</p>
 </body>
 </html>

@@ -39,7 +39,7 @@ header[role="resume-banner"] {
 
 header[role="candlestick-banner"] {
     background: url('../img/candlestick-banner.png') center no-repeat;
-    background-size: cover;
+    background-size: contain;
     height: .5vh;
     text-align: center;
     width: 100vw;
